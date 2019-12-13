@@ -1,24 +1,3 @@
-# README
+This is a website that allows for instructors to create and receive payment for online classes. They can upload photos and videos for students to watch. Other users can subscribe to the tutorials as well. Instructors may or may not charge a fee for a specific course.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The app was built within a Ruby on Rails framework. The information is saved to a PostgreSQL database. Most of the buttons were added using Bootstrap - in conjunction with HTML5 and CSS3. The Devise gem in Rails was used to authenticate users (both students and instructors). The Carrierwave gem helps with uploading images/videos. JavaScript was used as well: VideoJS was included for embedding videos, and the jQuery sortable function helped with reordering lessons and sections within courses.
